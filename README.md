@@ -6,3 +6,7 @@
 * CSS custom properties
 * Flexbox
 * Mobile-first workflow
+
+## Preview
+
+![scoreboard](https://user-images.githubusercontent.com/82247833/193721544-1550cef1-bef6-4897-b0b7-7115c3561c52.gif)
