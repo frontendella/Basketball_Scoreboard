@@ -4,15 +4,22 @@
  }
 
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     margin: 0;
-}
+    padding: 0;
+    background-color:rgb(247, 247, 247);
 
+}
+ 
 .container {
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    max-width: 575px;
+    width: 550px;
     max-height: 384px;
     background-color: #1B244A;
     align-items: center;
@@ -26,15 +33,18 @@ h3{
     text-align: center;
 
 }
-
 button {
+    background-color: #1B244A;
+    color: #9AABD8;
+}
+
+.btn {
     width: 30px;
     height: 30px;
-
     border: #9AABD8 1px solid;
-    color: #9AABD8;
+
     border-radius: 5px;
-    background-color: #1B244A;
+    
     font-family: CursedTimerULiL;
     margin: 15px 1px 50px 5px
 }
@@ -53,4 +63,24 @@ h4 {
     border-radius: 5px;
     margin: 2px auto;
     
+}
+
+#reset{
+    align-self: flex-end;
+    margin-bottom: 10px;
+
+}
+#btn_reset{
+    width: 60px;
+    height: 30px;
+}
+#draw {
+    width: 60px;
+    height: 40px;
+    color: white;
+    margin: 10px auto;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+    font-size:  1.5em;
+    padding-bottom: -1rem;
 }
